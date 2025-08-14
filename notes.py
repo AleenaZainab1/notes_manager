@@ -3,8 +3,9 @@ import json
 
 # Load existing notes
 try:
-    with open("notes.json") as f:
-        notes = json.load(f)
+    with open("notes.json") as f:1
+
+    notes = json.load(f)
 except FileNotFoundError:
     notes = []
 
